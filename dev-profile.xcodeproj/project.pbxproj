@@ -56,15 +56,23 @@
 		75B3346522C288E900F34E86 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				75B3347A22C2894C00F34E86 /* Controller */,
 				75B3346622C288E900F34E86 /* AppDelegate.swift */,
 				75B3346822C288E900F34E86 /* SceneDelegate.swift */,
-				75B3346A22C288E900F34E86 /* ViewController.swift */,
 				75B3346C22C288E900F34E86 /* Main.storyboard */,
 				75B3346F22C288EA00F34E86 /* Assets.xcassets */,
 				75B3347122C288EA00F34E86 /* LaunchScreen.storyboard */,
 				75B3347422C288EA00F34E86 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		75B3347A22C2894C00F34E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75B3346A22C288E900F34E86 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
